@@ -23,5 +23,5 @@ and
 
 ```totalUp();``` runs on clicking the 'Checkout' button at the bottom, and uses a for loop to iterate through all the checkboxes in the DOM, checking ```if (ingredient.checked===true)``` and if it is true, it passes the id and value to two separate arrays: ingredientNames, and ingredientValues, respectively. Then, it uses the ```array.reduce((a,b)=> a + b )``` method to add the contents of the ingredientValues array together, and prints the result along with the contents of the ingredientNames array.
 ## Screenshots
-![](assets\sandwich1.JPG)
-![](assets\sandwich2.JPG)
+![](assets/sandwich1.JPG)
+![](assets/sandwich2.JPG)
